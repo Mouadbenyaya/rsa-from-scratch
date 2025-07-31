@@ -13,7 +13,5 @@ Ce projet implémente le chiffrement RSA en Python, incluant la génération de 
 
 ## 📁 Structure du projet
 
-```bash
-.
 ├── rsa.py             # Code principal avec toutes les fonctions RSA
 
