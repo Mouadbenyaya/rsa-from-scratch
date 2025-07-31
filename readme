@@ -1,0 +1,19 @@
+# RSA en Python — Génération de clés, chiffrement et déchiffrement
+
+Ce projet implémente le chiffrement RSA en Python, incluant la génération de clés RSA à partir de nombres premiers générés aléatoirement avec le test de Miller-Rabin. Il inclut également un système de padding conforme à PKCS#1 v1.5.
+
+## 🔐 Fonctionnalités
+
+- Génération de clés RSA valides (2048 bits par défaut)
+- Test de primalité probabiliste (Miller-Rabin)
+- Calcul de l'inverse modulaire (algorithme d’Euclide étendu)
+- Chiffrement et déchiffrement RSA
+- Padding/dépadding PKCS#1 v1.5
+- Test intégré avec chiffrement/déchiffrement d'un message
+
+## 📁 Structure du projet
+
+```bash
+.
+├── rsa.py             # Code principal avec toutes les fonctions RSA
+
